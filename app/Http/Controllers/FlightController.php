@@ -10,12 +10,12 @@ class FlightController extends Controller
 
     public function index(Request $request)
     {
-        return view('layout.app');
+       // TODO implement frontend
     }
 
     public function show($flight_number, FlightServiceInterface $flight)
     {
-       return $flight->find($flight_number);
+        return $flight->find($flight_number);
 
     }
 
