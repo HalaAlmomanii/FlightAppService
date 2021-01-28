@@ -7,7 +7,6 @@ The Flight website is an application. The purpose of the website is to get fligh
 
 <p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUTMgtpfAWHl19dA9n1TDtMyydB6cfF6-rQ&usqp=CAU" width="400"></p>
 
-
 ## Documentation & integration rescoure 
 we used <a href="https://www.aerodatabox.com/data-coverage" >AeroDataBox API</a> as service provider integrate with <a href="https://rapidapi.com/aerodatabox/api/aerodatabox"> RapidApi</a> for subscription
 
@@ -52,5 +51,5 @@ running laravel
 running Vue
 ```
 npm run watch 
-
-## Haapy & Safe Code
+```
+## Happy & Safe Code
