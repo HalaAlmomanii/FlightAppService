@@ -52,4 +52,4 @@ running Vue
 ```
 npm run watch 
 ```
-## Happy & Safe Code
+# Happy & Safe Code
