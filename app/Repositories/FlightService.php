@@ -32,6 +32,6 @@ abstract class FlightService
     protected function process()
     {
         return $this->http::withHeaders($this->headers)->{$this->method}($this->service_url);
-
     }
+
 }

@@ -3,9 +3,8 @@
 return [
     'flight' => [
         'host' => env('FLIGHTHOST', 'aerodatabox.p.rapidapi.com'),
-        'key' => env('FLIGHTKEY', '1092ae0285mshf9c9af229754e36p130aafjsn56d4994e8e1b'),
+        'key' => env('FLIGHTKEY', '343e7f55cbmshfed5773961c3311p18042bjsn67894b8e111d'),
         'query' => env('FLIGHTQUERY', true),
-        'url'=>env('FLIGHTURL',"https://aerodatabox.p.rapidapi.com/flights")
-        ],
-
+        'url' => env('FLIGHTURL', "https://aerodatabox.p.rapidapi.com/flights"),
+    ],
 ];

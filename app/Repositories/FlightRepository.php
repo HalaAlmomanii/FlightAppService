@@ -13,13 +13,11 @@ class FlightRepository extends FlightService implements FlightServiceInterface
             'X-RapidAPI-Host' => config('flightservice.flight.host'),
             'useQueryString' => config('flightservice.flight.query')
         ];
-
     }
 
     public function baseUrl()
     {
         return config('flightservice.flight.url');
-
     }
 
     public function find($flight_number)
@@ -30,7 +28,4 @@ class FlightRepository extends FlightService implements FlightServiceInterface
 
         return $this->process();
     }
-
-
-
 }
