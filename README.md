@@ -5,7 +5,7 @@ This Repo presents a detailed description of the Flight Aviation system,
 
 The Flight website is an application. The purpose of the website is to get flight details by searching on flight Number "IATA" Code.
 
-Happy & Safe Code
+Happy & Safe Coding
 
 <p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUTMgtpfAWHl19dA9n1TDtMyydB6cfF6-rQ&usqp=CAU" width="400"></p>
 
