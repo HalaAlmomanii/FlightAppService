@@ -1,5 +1,5 @@
 
-## About Agenda
+## About FlightApp
 
 This Repo presents a detailed description of the Flight Aviation system, 
 
