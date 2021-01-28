@@ -12,12 +12,12 @@ The Flight website is an application. The purpose of the website is to get fligh
 we used <a href="https://www.aerodatabox.com/data-coverage" >AeroDataBox API</a> as service provider integrate with <a href="https://rapidapi.com/aerodatabox/api/aerodatabox"> RapidApi</a> for subscription
 
 ## WebSite Host
-<a href ='https://flight-apiapp.herokuapp.com'/>Flight</a>
+<a href ='https://flight-apiapp.herokuapp.com'/>Flight.com</a>
 
 ## Installation 
 Clone 
 ```
-git clone https://github.com/HalaAlmomanii/Agend.git
+git clone https://github.com/HalaAlmomanii/FlightAppService.git
 
 ```
 Composer
