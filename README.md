@@ -45,7 +45,6 @@ Generate Key
 ```
  php artisan key:generate
 ```
-```
 running laravel
 ```
  php artisan serve
@@ -54,5 +53,4 @@ running Vue
 ```
 npm run watch 
 
-```
-
+## Haapy & Safe Code
