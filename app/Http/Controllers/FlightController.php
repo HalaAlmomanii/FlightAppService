@@ -24,10 +24,13 @@ class FlightController extends Controller
 
     }
 
+
     public function format($items)
     {
+        $result = [];
+
         foreach ($items as $item) {
-            return [
+            $result = [
                 'from' => $item['departure']['airport']['municipalityName'],
                 'to' => $item['arrival']['airport']['municipalityName'],
                 'status' => $item['status'],
@@ -38,6 +41,6 @@ class FlightController extends Controller
                 'arrival_time' => Carbon::make($item['arrival']['scheduledTimeUtc'])->toDayDateTimeString(),
             ];
         }
-        return [];
+        return $result;
     }
 }
