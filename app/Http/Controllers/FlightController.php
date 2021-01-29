@@ -30,7 +30,7 @@ class FlightController extends Controller
         $result = [];
 
         foreach ($items as $item) {
-            $result = [
+            $result[] = [
                 'from' => $item['departure']['airport']['municipalityName'],
                 'to' => $item['arrival']['airport']['municipalityName'],
                 'status' => $item['status'],
