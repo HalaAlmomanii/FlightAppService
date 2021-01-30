@@ -15,6 +15,9 @@ we used <a href="https://doc.aerodatabox.com/#operation/GetFlight" >AeroDataBox 
 ## WebSite Host
 <a href ='https://flight-apiapp.herokuapp.com'/>Flight.com</a>
 
+## Test Case
+Search on flight nunbers such as "KLM1395,KLM1390,RJ641,RJ166" and so on ..
+
 ## Installation 
 Clone 
 ```
